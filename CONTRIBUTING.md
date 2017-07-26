@@ -16,10 +16,10 @@ better.
 ## Pull Requests
 
 1. Create a branch to work on a fix/feature (a fix/feature should have a companion bug/enhancement issue). Start the branch with either "feature/..." or "bug/...".
-  - If you're not a member of the repository team, fork the repository and follow the same process.
+   - If you're not a member of the repository team, fork the repository and follow the same process.
 2. Before sending out a pull request, please make sure that:
-  - If working on a schema bug/feature, the resulting code passes all tests and, ifworking on a new feature, it has an accompanying function or unit test (NB: the granularity of the testing suite is team/project dependent).
-  - If working on a documentation bug/feature, the documentation must build with no errors, if using an automated system.
+   - If working on a schema bug/feature, the resulting code passes all tests and, ifworking on a new feature, it has an accompanying function or unit test (NB: the granularity of the testing suite is team/project dependent).
+   - If working on a documentation bug/feature, the documentation must build with no errors, if using an automated system.
 3. Once it's done and tested, create a pull request to move it into the current working branch.
    - If working with a continuous integration/deployment environment (e.g. Travis CI, BuildKite, or  Drone)  with a direct connection to the GitHub repo, all tests must pass in the pull request.
 4. At that point, some discussion might happen. In order to get approval for the pull request, you will need approval from two people on the development team.
